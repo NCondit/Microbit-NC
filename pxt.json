@@ -1,0 +1,30 @@
+{
+    "name": "Test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v0.10.39",
+        "jacdac-button": "github:microsoft/pxt-jacdac/button#v0.10.39",
+        "jacdac-led": "github:microsoft/pxt-jacdac/led#v0.10.39",
+        "jacdac-rotary-encoder": "github:microsoft/pxt-jacdac/rotary-encoder#v0.10.39"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
